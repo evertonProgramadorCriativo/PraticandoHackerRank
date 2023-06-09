@@ -6,15 +6,19 @@ for (let index = 0; index < arr.length; index++) {
    //console.log(index)
    if (max < arr[index]) {
     max = arr[index]
-    console.log("maximo" + " " + index)
+    //console.log("maximo" + " " + index)
    }
    if (min > arr[index]) {
     min = arr[index]
-   console.log("minimo"  + " " + index)
+ console.log("minimo"  + " " + index)
    }
- //   sum += arr[index];
-    
+  sum += arr[index];
+
+ 
 }
+let maxSum = sum - min;
+let minSum = sum - max;
+console.log(minSum + " " + maxSum)
 }
-//console.log(1 > 1)
-miniMaxSum([1,3,4,6])
+
+miniMaxSum([7, 69, 2, 221 ,8974])
