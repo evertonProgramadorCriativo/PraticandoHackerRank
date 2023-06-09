@@ -21,7 +21,7 @@ return military + s.substring(2,8);
 
 //horario de manhã
 
-let  horariaMilitar = "02:01:00"
+let  horariaMilitar = "13:01:00"
 
 let resultado1 = horariaMilitar.substring(0,2)
 let resultado2 = horariaMilitar.substring(2,8)
