@@ -4,7 +4,12 @@ function sockMerchant(n, ar) {
     let search = new Set();
 
     for (const sock of ar) {
-        
+        if(search.has(sock)){
+            pairs++;
+            search.delete(sock);
+        } else {
+            search.add(sock);
+        }
         
     }
 
