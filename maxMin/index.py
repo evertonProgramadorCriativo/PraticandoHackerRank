@@ -1,2 +1,6 @@
 def maxMin(k, arr):
-    # Write your code here
+   
+     
+    arr.sort()
+    min_diff = sys.maxsize
+    
